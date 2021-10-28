@@ -1,4 +1,4 @@
-import { generateRandomNum } from '../index.js';
+import { generateRandomNum } from '../supportFunctions';
 
 export const brainEvenRules = () => 'Answer "yes" if the number is even, otherwise answer "no".';
 

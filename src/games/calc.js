@@ -1,4 +1,4 @@
-import { generateRandomNum, generateRandomOperation } from '../index.js';
+import { generateRandomNum, generateRandomOperation } from '../supportFunctions';
 
 export const brainCalcRules = () => 'What is the result of the expression?';
 
