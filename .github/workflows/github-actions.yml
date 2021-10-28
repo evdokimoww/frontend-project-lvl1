@@ -1,7 +1,13 @@
 name: GitHub Actions
-on: [push]
+on:
+  push
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: make lint
+      - name: Init project
+        run: |
+          - npm install
+          - make install
+      - name: Run linter
+        run: make lint
