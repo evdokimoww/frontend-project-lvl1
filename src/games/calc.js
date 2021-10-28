@@ -10,9 +10,19 @@ const brainCalcRound = () => {
   const answer = `Question: ${firstOperand} ${operation} ${secondOperand}\nYour answer: `;
   let rightAnswer = 0;
 
-  if (operation === '+') rightAnswer = firstOperand + secondOperand;
-  if (operation === '-') rightAnswer = firstOperand - secondOperand;
-  if (operation === '*') rightAnswer = firstOperand * secondOperand;
+  switch (operation) {
+    case '+':
+      rightAnswer = firstOperand + secondOperand;
+      break;
+    case '-':
+      rightAnswer = firstOperand - secondOperand;
+      break;
+    case '*':
+      rightAnswer = firstOperand * secondOperand;
+      break;
+    default:
+      break;
+  }
 
   return [answer, rightAnswer];
 };
