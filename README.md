@@ -4,3 +4,5 @@
 ![workflow](https://github.com/evdokimoww/frontend-project-lvl1/actions/workflows/github-actions.yml/badge.svg)
 
 [Link: Lesson 5 Brain Even Asciinema >>](https://asciinema.org/a/NUMo0k7S2iuyhL8YAqtOCsQJD)
+
+[Link: Lesson 6 Brain Calc Asciinema >>](https://asciinema.org/a/Dts5XuNAikcT9B63gWccS7dC1)
