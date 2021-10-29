@@ -10,3 +10,5 @@
 [Link: Lesson 7 Brain Gcd Asciinema >>](https://asciinema.org/a/akbmCjlc0CaQKlIPgYR655NwF)
 
 [Link: Lesson 8 Brain Progression Asciinema >>](https://asciinema.org/a/EXnEIQppKpJ8wcOGFrK7D8UkF)
+
+[Link: Lesson 9 Brain Prime Asciinema >>](https://asciinema.org/a/cvWwcFY6mvHnGVyMprjXyw6lX)

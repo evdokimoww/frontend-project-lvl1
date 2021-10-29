@@ -16,7 +16,7 @@ const brainGcdRound = () => {
     }
   }
 
-  return [answer, (firstOperand + secondOperand)];
+  return [answer, (firstOperand + secondOperand).toString()];
 };
 
 export default brainGcdRound;

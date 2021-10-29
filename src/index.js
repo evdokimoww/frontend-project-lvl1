@@ -11,7 +11,7 @@ const game = (rules, round) => {
     const [question, rightAnswer] = round();
     const answer = readlineSync.question(question);
 
-    if (+answer === +rightAnswer) {
+    if (answer === rightAnswer) {
       console.log('Correct!');
     } else {
       return console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.\nLet's try again, ${name}!`);

@@ -1,4 +1,4 @@
-import { generateRandomNum, generateRandomOperation } from '../supportFunctions';
+import { generateRandomNum, generateRandomOperation } from '../supportFunctions.js';
 
 export const brainCalcRules = () => 'What is the result of the expression?';
 
@@ -24,7 +24,7 @@ const brainCalcRound = () => {
       break;
   }
 
-  return [answer, rightAnswer];
+  return [answer, rightAnswer.toString()];
 };
 
 export default brainCalcRound;
