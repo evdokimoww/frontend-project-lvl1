@@ -8,3 +8,5 @@
 [Link: Lesson 6 Brain Calc Asciinema >>](https://asciinema.org/a/Dts5XuNAikcT9B63gWccS7dC1)
 
 [Link: Lesson 7 Brain Gcd Asciinema >>](https://asciinema.org/a/akbmCjlc0CaQKlIPgYR655NwF)
+
+[Link: Lesson 8 Brain Progression Asciinema >>](https://asciinema.org/a/EXnEIQppKpJ8wcOGFrK7D8UkF)
