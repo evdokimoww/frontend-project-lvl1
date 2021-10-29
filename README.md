@@ -6,3 +6,5 @@
 [Link: Lesson 5 Brain Even Asciinema >>](https://asciinema.org/a/NUMo0k7S2iuyhL8YAqtOCsQJD)
 
 [Link: Lesson 6 Brain Calc Asciinema >>](https://asciinema.org/a/Dts5XuNAikcT9B63gWccS7dC1)
+
+[Link: Lesson 7 Brain Gcd Asciinema >>](https://asciinema.org/a/akbmCjlc0CaQKlIPgYR655NwF)
