@@ -12,7 +12,7 @@ const brainProgressionRound = () => {
   }
 
   const rightAnswer = progression.splice(generateRandomNum(0, 9), 1, '..');
-  const answer = `Question: ${progression.join('  ')}\nYour answer: `;
+  const answer = `Question: ${progression.join(' ')}\nYour answer: `;
   return [answer, rightAnswer.toString()];
 };
 
