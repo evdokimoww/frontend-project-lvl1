@@ -3,12 +3,32 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/416b67c1c3c63fa11448/maintainability)](https://codeclimate.com/github/evdokimoww/frontend-project-lvl1/maintainability)
 ![workflow](https://github.com/evdokimoww/frontend-project-lvl1/actions/workflows/github-actions.yml/badge.svg)
 
-[Link: Lesson 5 Brain Even Asciinema >>](https://asciinema.org/a/NUMo0k7S2iuyhL8YAqtOCsQJD)
+### Brain Even Game:
+`brain-even` command to run
 
-[Link: Lesson 6 Brain Calc Asciinema >>](https://asciinema.org/a/Dts5XuNAikcT9B63gWccS7dC1)
+[![asciicast](https://asciinema.org/a/NUMo0k7S2iuyhL8YAqtOCsQJD.svg)](https://asciinema.org/a/NUMo0k7S2iuyhL8YAqtOCsQJD)
+[Link: Brain Even Asciinema](https://asciinema.org/a/NUMo0k7S2iuyhL8YAqtOCsQJD)
 
-[Link: Lesson 7 Brain Gcd Asciinema >>](https://asciinema.org/a/akbmCjlc0CaQKlIPgYR655NwF)
+### Brain Calc Game:
+`brain-calc` command to run
 
-[Link: Lesson 8 Brain Progression Asciinema >>](https://asciinema.org/a/EXnEIQppKpJ8wcOGFrK7D8UkF)
+[![asciicast](https://asciinema.org/a/445212.svg)](https://asciinema.org/a/445212)
+[Link: Brain Calc Asciinema](https://asciinema.org/a/Dts5XuNAikcT9B63gWccS7dC1)
 
-[Link: Lesson 9 Brain Prime Asciinema >>](https://asciinema.org/a/cvWwcFY6mvHnGVyMprjXyw6lX)
+### Brain Gcd Game:
+`brain-gcd` command to run
+
+[![asciicast](https://asciinema.org/a/akbmCjlc0CaQKlIPgYR655NwF.svg)](https://asciinema.org/a/akbmCjlc0CaQKlIPgYR655NwF)
+[Link: Brain Gcd Asciinema](https://asciinema.org/a/akbmCjlc0CaQKlIPgYR655NwF)
+
+### Brain Progression Game:
+`brain-progression` command to run
+
+[![asciicast](https://asciinema.org/a/EXnEIQppKpJ8wcOGFrK7D8UkF.svg)](https://asciinema.org/a/EXnEIQppKpJ8wcOGFrK7D8UkF)
+[Link: Brain Progression Asciinema](https://asciinema.org/a/EXnEIQppKpJ8wcOGFrK7D8UkF)
+
+### Brain Prime Game:
+`brain-prime` command to run
+
+[![asciicast](https://asciinema.org/a/cvWwcFY6mvHnGVyMprjXyw6lX.svg)](https://asciinema.org/a/cvWwcFY6mvHnGVyMprjXyw6lX)
+[Link: Brain Prime Asciinema](https://asciinema.org/a/cvWwcFY6mvHnGVyMprjXyw6lX)
