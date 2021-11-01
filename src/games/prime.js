@@ -1,4 +1,4 @@
-import { generateRandomNum } from '../supportFunctions.js';
+import generateRandomNum from '../supportFunctions.js';
 
 const primeCheck = (num) => {
   for (let i = 2; i <= Math.sqrt(num); i += 1) {
@@ -6,6 +6,7 @@ const primeCheck = (num) => {
       return false;
     }
   }
+
   return true;
 };
 
@@ -16,9 +17,10 @@ const brainPrimeRound = () => {
 
   const result = primeCheck(num);
 
-  const answer = `Question: ${num}\nYour answer: `;
+  const answer = `${num}`;
+  const rightAnswer = result ? 'yes' : 'no';
 
-  return [answer, result ? 'yes' : 'no'];
+  return [answer, rightAnswer];
 };
 
 export default brainPrimeRound;

@@ -1,5 +1,11 @@
 #!/usr/bin/env node
 import game from '../src/index.js';
-import brainProgressionRound, { brainGcdRules } from '../src/games/progression.js';
+import brainProgressionRound, { brainProgressionRules } from '../src/games/progression.js';
 
-game(brainGcdRules(), brainProgressionRound);
+const gameFunction = () => {
+  const rules = brainProgressionRules();
+  const round = brainProgressionRound;
+  return { rules, round };
+};
+
+game(gameFunction);
