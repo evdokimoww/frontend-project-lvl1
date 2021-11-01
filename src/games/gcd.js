@@ -14,7 +14,7 @@ const checkGcd = (firstOperand, secondOperand) => {
     }
   }
 
-  return (firstOperand + secondOperand).toString();
+  return (a + b).toString();
 };
 
 const brainGcdRound = () => {
