@@ -1,4 +1,4 @@
-import generateRandomNum from '../supportFunctions.js';
+import generateRandomNum from '../supportFunction.js';
 
 const generateRandomOperation = () => {
   const operations = ['+', '-', '*'];
@@ -6,26 +6,19 @@ const generateRandomOperation = () => {
 };
 
 const executeOperation = (a, b, operation) => {
-  let result = 0;
-
   switch (operation) {
     case '+':
-      result = a + b;
-      break;
+      return a + b;
     case '-':
-      result = a - b;
-      break;
+      return a - b;
     case '*':
-      result = a * b;
-      break;
+      return a * b;
     default:
-      break;
+      return null;
   }
-
-  return result;
 };
 
-export const brainCalcRules = () => 'What is the result of the expression?';
+const brainCalcRules = () => 'What is the result of the expression?';
 
 const brainCalcRound = () => {
   const firstOperand = generateRandomNum();
@@ -38,4 +31,10 @@ const brainCalcRound = () => {
   return [answer, rightAnswer.toString()];
 };
 
-export default brainCalcRound;
+const gameFunction = () => {
+  const rules = brainCalcRules();
+  const generateRound = brainCalcRound;
+  return { rules, generateRound };
+};
+
+export default gameFunction;

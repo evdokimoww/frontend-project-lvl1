@@ -1,4 +1,4 @@
-import generateRandomNum from '../supportFunctions.js';
+import generateRandomNum from '../supportFunction.js';
 
 export const brainEvenRules = () => 'Answer "yes" if the number is even, otherwise answer "no".';
 
@@ -12,4 +12,10 @@ const brainEvenRound = () => {
   return [answer, rightAnswer];
 };
 
-export default brainEvenRound;
+const gameFunction = () => {
+  const rules = brainEvenRules();
+  const generateRound = brainEvenRound;
+  return { rules, generateRound };
+};
+
+export default gameFunction;

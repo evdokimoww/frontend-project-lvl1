@@ -1,23 +1,23 @@
-import generateRandomNum from '../supportFunctions.js';
+import generateRandomNum from '../supportFunction.js';
 
-export const brainGcdRules = () => 'Find the greatest common divisor of given numbers.';
+const brainGcdRules = () => 'Find the greatest common divisor of given numbers.';
 
 const checkGcd = (firstOperand, secondOperand) => {
   let a = firstOperand;
   let b = secondOperand;
 
-  while (a !== 0 && b !== 0) {
+  while (a !== b) {
     if (a > b) {
-      a %= b;
+      a -= b;
     } else {
-      b %= a;
+      b -= a;
     }
   }
 
-  return (a + b).toString();
+  return a.toString();
 };
 
-const brainGcdRound = () => {
+export const brainGcdRound = () => {
   const firstOperand = generateRandomNum();
   const secondOperand = generateRandomNum();
 
@@ -27,4 +27,10 @@ const brainGcdRound = () => {
   return [answer, rightAnswer];
 };
 
-export default brainGcdRound;
+const gameFunction = () => {
+  const rules = brainGcdRules();
+  const generateRound = brainGcdRound;
+  return { rules, generateRound };
+};
+
+export default gameFunction;
