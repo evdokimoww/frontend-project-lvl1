@@ -1,6 +1,6 @@
 import generateRandomNum from '../supportFunction.js';
 
-const brainProgressionRules = () => 'What number is missing in the progression?';
+const gameRules = 'What number is missing in the progression?';
 
 const generateNumberProgression = (start, step, length) => {
   const progression = [];
@@ -25,7 +25,7 @@ const brainProgressionRound = () => {
 };
 
 const gameFunction = () => {
-  const rules = brainProgressionRules();
+  const rules = gameRules;
   const generateRound = brainProgressionRound;
   return { rules, generateRound };
 };

@@ -1,6 +1,6 @@
 import generateRandomNum from '../supportFunction.js';
 
-const brainGcdRules = () => 'Find the greatest common divisor of given numbers.';
+const gameRules = 'Find the greatest common divisor of given numbers.';
 
 const checkGcd = (firstOperand, secondOperand) => {
   let a = firstOperand;
@@ -28,7 +28,7 @@ export const brainGcdRound = () => {
 };
 
 const gameFunction = () => {
-  const rules = brainGcdRules();
+  const rules = gameRules;
   const generateRound = brainGcdRound;
   return { rules, generateRound };
 };
