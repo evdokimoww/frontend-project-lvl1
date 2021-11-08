@@ -11,7 +11,7 @@ const generateNumberProgression = (start, step, length) => {
   return progression;
 };
 
-const brainProgressionRound = () => {
+const generateRound = () => {
   const startProgression = generateRandomNum();
   const stepProgression = generateRandomNum(1, 9);
   const lengthProgression = generateRandomNum(5, 10);
@@ -26,7 +26,6 @@ const brainProgressionRound = () => {
 
 const gameFunction = () => {
   const rules = gameRules;
-  const generateRound = brainProgressionRound;
   return { rules, generateRound };
 };
 

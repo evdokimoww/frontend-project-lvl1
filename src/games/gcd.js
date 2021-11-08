@@ -14,22 +14,21 @@ const checkGcd = (firstOperand, secondOperand) => {
     }
   }
 
-  return a.toString();
+  return a;
 };
 
-export const brainGcdRound = () => {
+const generateRound = () => {
   const firstOperand = generateRandomNum();
   const secondOperand = generateRandomNum();
 
   const answer = `${firstOperand} ${secondOperand}`;
-  const rightAnswer = checkGcd(firstOperand, secondOperand);
+  const rightAnswer = checkGcd(firstOperand, secondOperand).toString();
 
   return [answer, rightAnswer];
 };
 
 const gameFunction = () => {
   const rules = gameRules;
-  const generateRound = brainGcdRound;
   return { rules, generateRound };
 };
 

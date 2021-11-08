@@ -20,7 +20,7 @@ const executeOperation = (a, b, operation) => {
 
 const gameRules = 'What is the result of the expression?';
 
-const brainCalcRound = () => {
+const generateRound = () => {
   const firstOperand = generateRandomNum();
   const secondOperand = generateRandomNum();
   const operation = generateRandomOperation();
@@ -33,7 +33,6 @@ const brainCalcRound = () => {
 
 const gameFunction = () => {
   const rules = gameRules;
-  const generateRound = brainCalcRound;
   return { rules, generateRound };
 };
 

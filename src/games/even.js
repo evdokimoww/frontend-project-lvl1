@@ -4,7 +4,7 @@ const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (num) => num % 2 === 0;
 
-const brainEvenRound = () => {
+const generateRound = () => {
   const randomNum = generateRandomNum();
   const answer = `${randomNum}`;
   const rightAnswer = isEven(randomNum) ? 'yes' : 'no';
@@ -14,7 +14,6 @@ const brainEvenRound = () => {
 
 const gameFunction = () => {
   const rules = gameRules;
-  const generateRound = brainEvenRound;
   return { rules, generateRound };
 };
 
