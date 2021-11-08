@@ -14,14 +14,14 @@ const game = (makeGameData) => {
     const answer = readlineSync.question(`Question: ${question}\nYour answer: `);
 
     if (answer !== rightAnswer) {
-      return console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.\nLet's try again, ${name}!`);
+      console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.\nLet's try again, ${name}!`);
+      return;
     }
 
     console.log('Correct!');
   }
 
-  const result = console.log(`Congratulations, ${name}!`);
-  return result;
+  console.log(`Congratulations, ${name}!`);
 };
 
 export default game;
